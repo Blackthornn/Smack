@@ -80,10 +80,6 @@ class CreateUserActivity : AppCompatActivity() {
 
     }
 
-    fun errorToast() {
-        Toast.makeText(this, "Something went wrong. Please try again.", Toast.LENGTH_LONG).show()
-        enableSpinner(false)
-    }
 
     fun generateColourClicked(view: View) {
         val random = Random()
@@ -99,6 +95,11 @@ class CreateUserActivity : AppCompatActivity() {
 
         avatarColour = "[$savedR, $savedG, $savedB, 1]"
 
+    }
+
+    fun errorToast() {
+        Toast.makeText(this, "Something went wrong. Please try again.", Toast.LENGTH_LONG).show()
+        enableSpinner(false)
     }
 
     fun enableSpinner(enable: Boolean) {
