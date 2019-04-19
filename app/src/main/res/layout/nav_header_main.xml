@@ -27,7 +27,7 @@
             android:id="@+id/userNameNavHeader"
             app:layout_constraintStart_toEndOf="@+id/userImageNavHeader" android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            app:layout_constraintTop_toTopOf="@+id/userImageNavHeader" android:text="The Blackthorn"/>
+            app:layout_constraintTop_toTopOf="@+id/userImageNavHeader"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -35,7 +35,7 @@
             android:id="@+id/userEmailNavHeader"
             app:layout_constraintStart_toEndOf="@+id/userImageNavHeader" android:layout_marginLeft="8dp"
             android:layout_marginStart="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/userNameNavHeader" android:text="huurrah@kintokii.co.uk"/>
+            app:layout_constraintTop_toBottomOf="@+id/userNameNavHeader"/>
     <Button
             android:text="Login"
             android:layout_width="wrap_content"
